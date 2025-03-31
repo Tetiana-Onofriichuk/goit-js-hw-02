@@ -3,13 +3,13 @@ function getShippingCost(country) {
   //   country.charAt(0).toUpperCase() + country.slice(1).toLowerCase();
   switch (country) {
     case "China":
-      return "Shipping to " + country + " will cost " + "100 " + "credits";
+      return `Shipping to ${country} will cost 100 credits`;
     case "Chile":
-      return "Shipping to " + country + " will cost " + "250 " + "credits";
+      return `Shipping to ${country} will cost 250 credits`;
     case "Australia":
-      return "Shipping to " + country + " will cost " + "170 " + "credits";
+      return `Shipping to ${country} will cost 170 credits`;
     case "Jamaica":
-      return "Shipping to " + country + " will cost " + "120 " + "credits";
+      return `Shipping to ${country} will cost 120 credits`;
     default:
       return "Sorry, there is no delivery to your country";
   }

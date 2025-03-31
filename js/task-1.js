@@ -5,7 +5,7 @@ function makeTransaction(quantity, pricePerDroid, customerCredits) {
   if (sum > customerCredits) {
     return "Insufficient funds!";
   } else {
-    return "You ordered " + quantity + " droids worth " + sum + " credits!";
+    return `You ordered ${quantity} droids worth ${sum} credits!`;
   }
 }
 
